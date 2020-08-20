@@ -11,7 +11,7 @@ import 'package:intl_phone_number_input/src/utils/widget_view.dart';
 import 'package:intl_phone_number_input/src/widgets/selector_button.dart';
 import 'package:libphonenumber/libphonenumber.dart';
 
-/// Enum for [SelectorButton] types.
+/// Enum for [SelectorButton] typesssssssss.
 ///
 /// Available type includes:
 ///   * [PhoneInputSelectorType.DROPDOWN]
