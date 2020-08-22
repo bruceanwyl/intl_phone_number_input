@@ -258,8 +258,8 @@ class _InputWidgetState extends State<InternationalPhoneNumberInput> {
     if (widget.initialValue != null) {
       if (widget.initialValue.phoneNumber != null &&
           widget.initialValue.phoneNumber.isNotEmpty) {
-        // controller.text =
-        //     await PhoneNumber.getParsableNumber(widget.initialValue);
+        controller.text = widget.initialValue.phoneNumber;
+        // await PhoneNumber.getParsableNumber(widget.initialValue);
         phoneNumberControllerListener();
       }
     }
